@@ -523,7 +523,66 @@
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "danmu": true
       }
+    },
+    {
+      "key": "阿里合集",
+      "name": "阿里｜合集",
+      "type": 3,
+      "api": "csp_AliShare",
+      "searchable": 1,
+      "changeable": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "share": "https://gitee.com/PizazzXS/four-d/raw/master/js/alishare.txt"
+      },
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "短剧合集",
+      "name": "短剧｜合集",
+      "type": 3,
+      "api": "./lib/quark.min.js",
+      "ext": "./lib/DJHJ.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "Alllive",
+      "name": "聚合｜直播‍",
+      "type": 3,
+      "api": "csp_Wexalllive",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./lib/wex.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+    },
+    {
+      "key": "IKTV",
+      "name": "KTV｜音乐",
+      "type": 3,
+      "api": "csp_WexIktv",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "./lib/wex.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+    },
+    {
+      "key": "push_agent",
+      "name": "手机｜推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "danmu": true
+      }
     }
-
   ]
 }
