@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "孜然羊肉好吃吗？",
+      "name": "🎈孜然羊肉好吃吗🎈",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -95,7 +95,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "jar": "./lib/wex.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+      "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
     },
     {
       "key": "天天弹幕",
@@ -181,19 +181,6 @@
       "ext": "./lib/AQYDM.js"
     },
     {
-      "key": "荐片弹幕",
-      "name": "荐片｜弹幕",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
       "key": "玩偶弹幕",
       "name": "玩偶｜4K弹幕",
       "type": 3,
@@ -210,7 +197,7 @@
       }
     },
     {
-      "key": "夸克木偶弹幕",
+      "key": "木偶弹幕",
       "name": "木偶｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
@@ -221,13 +208,13 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://mogg.小胡.top",
+        "site": "http://www.muoupan.top",
         "danmu": true
       }
     },
     {
-      "key": "夸克肥猫弹幕",
-      "name": "肥猫｜4K弹幕",
+      "key": "UC闪电弹幕",
+      "name": "UC闪电｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "searchable": 1,
@@ -243,7 +230,7 @@
       }
     },
     {
-      "key": "夸克欧歌弹幕",
+      "key": "欧歌弹幕",
       "name": "欧哥｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
@@ -260,7 +247,7 @@
       }
     },
     {
-      "key": "夸克小米弹幕",
+      "key": "小米弹幕",
       "name": "小米｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
@@ -276,7 +263,7 @@
       }
     },
     {
-      "key": "夸克多多弹幕",
+      "key": "多多弹幕",
       "name": "多多｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
@@ -292,7 +279,7 @@
       }
     },
     {
-      "key": "夸克蜡笔弹幕",
+      "key": "蜡笔弹幕",
       "name": "蜡笔｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
@@ -308,7 +295,7 @@
       }
     },
     {
-      "key": "夸克至臻弹幕",
+      "key": "至臻弹幕",
       "name": "至臻｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
@@ -324,7 +311,7 @@
       }
     },
     {
-      "key": "夸克土豆弹幕",
+      "key": "土豆弹幕",
       "name": "土豆｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
@@ -340,7 +327,7 @@
       }
     },
     {
-      "key": "夸克奥秘弹幕",
+      "key": "奥秘弹幕",
       "name": "奥秘｜4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
@@ -409,7 +396,7 @@
       "filterable": 1
     },
     {
-      "key": "夸克影搜弹幕",
+      "key": "影搜弹幕",
       "name": "影搜｜弹幕",
       "type": 3,
       "api": "csp_Yingso",
@@ -423,8 +410,8 @@
       }
     },
     {
-      "key": "搜索弹幕",
-      "name": "搜索｜弹幕",
+      "key": "盘搜弹幕",
+      "name": "盘搜｜弹幕",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -491,7 +478,7 @@
       }
     },
     {
-      "key": "夸克趣盘搜弹幕",
+      "key": "趣盘搜弹幕",
       "name": "趣盘搜｜弹幕",
       "type": 3,
       "api": "csp_QuPanSou",
@@ -551,7 +538,7 @@
       "api": "csp_Wexalllive",
       "searchable": 1,
       "changeable": 1,
-      "jar": "./lib/wex.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+      "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
     },
     {
       "key": "IKTV",
@@ -560,7 +547,7 @@
       "api": "csp_WexIktv",
       "searchable": 1,
       "changeable": 0,
-      "jar": "./lib/wex.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+      "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
     },
     {
       "key": "push_agent",
@@ -580,7 +567,7 @@
   ],
    "parses": [
     {
-      "name": "推荐",
+      "name": "孜然羊肉",
       "type": 1,
       "url": "https://jxjson.icu/neibu.php?url=",
       "ext": {
@@ -609,106 +596,6 @@
       }
     },
     {
-      "name": "优选",
-      "type": 1,
-      "url": "http://1.94.221.189:88/algorithm.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "臻享",
-      "type": "1",
-      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "至臻",
-      "type": 1,
-      "url": "http://yunhai.qijiyun.vip/home/api?type=ys&uid=177259&key=dijnouxKNOQSTUWXY5&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "HGvip",
-      "type": 1,
-      "url": "http://1.94.221.189:88/algorithm.php?url=",
-      "ext": {
-        "flag": [
-          "hgvip"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
       "name": "皮皮虾",
       "type": "1",
       "url": "http://45.207.215.101:5423/index.php?url=",
@@ -718,80 +605,13 @@
           "皮皮虾4K"
         ]
       }
-    },
-    {
-      "name": "无双",
-      "type": 0,
-      "url": " http://103.117.123.193:1980/players/?url=",
-      "ext": {
-        "flag": [
-          "mgtv",
-          "芒果",
-          "RY",
-          "VIP线路"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
     }
    ],
    "rules": [
-    {
-      "name": "暴风",
-      "hosts": [
-        "bfzy",
-        "bfbfvip",
-        "bfengbf"
-      ],
-      "regex": [
-        "#EXTINF.*?\\s+.*?adjump.*?\\.ts"
-      ]
-    }
+
    ],
    "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141"
-      ]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40"
-      ]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112"
-      ]
-    }
+
    ],
    "lives": [
     {
@@ -800,251 +620,13 @@
       "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
       "playerType": 2,
       "timeout": 10
-    },
-    {
-      "name": "范明明",
-      "type": 0,
-      "url": "./lib/ipv6.m3u",
-      "playerType": 2,
-      "timeout": 10
-    },
-    {
-      "name": "肥羊国内直播",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "url": "tv.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊虎牙一起看",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "url": "huyayqk.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊B站直播",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "url": "bililive.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊斗鱼一起看",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "url": "douyuyqk.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊YY轮播",
-      "type": 3,
-      "api": "csp_Feiyang",
-      "url": "yylunbo.m3u",
-      "timeout": 10,
-      "ua": "okhttp/3.15"
     }
   ],
   "flags": [
-    "youku",
-    "优酷",
-    "优 酷",
-    "优酷视频",
-    "qq",
-    "腾讯",
-    "腾 讯",
-    "腾讯视频",
-    "iqiyi",
-    "qiyi",
-    "奇艺",
-    "爱奇艺",
-    "爱 奇 艺",
-    "m1905",
-    "xigua",
-    "letv",
-    "leshi",
-    "乐视",
-    "乐 视",
-    "sohu",
-    "搜狐",
-    "搜 狐",
-    "搜狐视频",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "芒果",
-    "imgo",
-    "芒果TV",
-    "芒 果 T V",
-    "bilibili",
-    "哔 哩",
-    "哔 哩 哔 哩"
+
   ],
   "ijk": [
-    {
-      "group": "软解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    },
-    {
-      "group": "硬解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    }
+    
   ],
   "ads": [
     "static-mozai.4gtv.tv"
