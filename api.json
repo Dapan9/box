@@ -409,13 +409,6 @@
       "filterable": 1
     },
     {
-      "key": "采集之王",
-      "name": "采集｜合集",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/CJZW.js?type=url&params=https://gitee.com/PizazzXS/four-d/raw/master/movie/json/CJJT.json$1$1"
-    },
-    {
       "key": "夸克影搜弹幕",
       "name": "影搜｜弹幕",
       "type": 3,
