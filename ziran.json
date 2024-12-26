@@ -36,54 +36,6 @@
       }
     },
     {
-      "key": "我的阿里",
-      "name": "我的｜阿里",
-      "type": 3,
-      "api": "csp_MyAli",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
-      },
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "我的夸克",
-      "name": "我的｜夸克",
-      "type": 3,
-      "api": "csp_MyQuark",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
-      },
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "我的UC",
-      "name": "我的｜UC",
-      "type": 3,
-      "api": "csp_MyUc",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "ext": {
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
-      },
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "影视配置",
       "name": "影视｜配置",
       "type": 3,
@@ -153,32 +105,52 @@
       "timeout": 10
     },
     {
-      "key": "腾讯弹幕",
-      "name": "腾讯｜弹幕",
+      "key": "我的阿里",
+      "name": "我的｜阿里",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/TXDM.js"
+      "api": "csp_MyAli",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
+      },
+      "style": {
+        "type": "list"
+      }
     },
     {
-      "key": "优酷弹幕",
-      "name": "优酷｜弹幕",
+      "key": "我的夸克",
+      "name": "我的｜夸克",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/YKDM.js"
+      "api": "csp_MyQuark",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
+      },
+      "style": {
+        "type": "list"
+      }
     },
     {
-      "key": "芒果弹幕",
-      "name": "芒果｜弹幕",
+      "key": "我的UC",
+      "name": "我的｜UC",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/MGDM.js"
-    },
-    {
-      "key": "爱奇艺弹幕",
-      "name": "爱奇艺｜弹幕",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/AQYDM.js"
+      "api": "csp_MyUc",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
+      },
+      "style": {
+        "type": "list"
+      }
     },
     {
       "key": "玩偶弹幕",
@@ -607,26 +579,72 @@
       }
     }
    ],
-   "rules": [
-
-   ],
    "doh": [
-
+       {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
    ],
    "lives": [
+       {
+      "name": "电视1-fanmingming",
+      "type": 0,
+      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+      "playerType": 2,
+      "timeout": 10
+    },
     {
-      "name": "直播",
+      "name": "电视2-yuanzl77",
+      "type": 0,
+      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.m3u",
+      "playerType": 2,
+      "timeout": 10
+    },
+    {
+      "name": "电视3-Live",
       "type": 0,
       "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
       "playerType": 2,
       "timeout": 10
     }
-  ],
-  "flags": [
-
-  ],
-  "ijk": [
-    
   ],
   "ads": [
     "static-mozai.4gtv.tv"
