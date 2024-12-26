@@ -1,1 +1,1 @@
-clan://localhost/tvbox/box/ziran.html
+clan://localhost/tvbox/box/ziran.json
