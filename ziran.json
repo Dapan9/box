@@ -4,16 +4,9 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "孜然羊肉ne🎈",
+      "name": "孜然羊肉ne🎈：广告勿信",
       "type": 3,
       "api": "csp_Douban",
-      "searchable": 0
-    },
-    {
-      "key": "预告",
-      "name": "新片｜预告",
-      "type": 3,
-      "api": "csp_YGP",
       "searchable": 0
     },
     {
@@ -53,7 +46,7 @@
       "key": "南瓜弹幕",
       "name": "南瓜┃弹幕",
       "type": 3,
-      "api": "csp_NanguaGuard",
+      "api": "csp_NanGua",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -536,6 +529,19 @@
       "searchable": 1,
       "changeable": 1,
       "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+    },
+    {
+      "key": "88js",
+      "name": "⚽88┃看球┃直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/88看球.js",
+      "style": {
+        "type": "list"
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "IKTV",
