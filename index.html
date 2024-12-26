@@ -1,1 +1,634 @@
-...
+{
+  "spider": "./ziran.txt;md5;a86f7115b9ed01b4e96c08c061107569",
+  "logo": "https://gitee.com/Dapan9/picture/raw/master/Image_01.png",
+  "sites": [
+    {
+      "key": "豆瓣",
+      "name": "🎈孜然羊肉好吃吗🎈",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "预告",
+      "name": "新片｜预告",
+      "type": 3,
+      "api": "csp_YGP",
+      "searchable": 0
+    },
+    {
+      "key": "本地",
+      "name": "本地｜视频",
+      "type": 3,
+      "api": "csp_LocalFile"
+    },
+    {
+      "key": "配置中心",
+      "name": "配置｜中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "我的阿里",
+      "name": "我的｜阿里",
+      "type": 3,
+      "api": "csp_MyAli",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
+      },
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "我的夸克",
+      "name": "我的｜夸克",
+      "type": 3,
+      "api": "csp_MyQuark",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
+      },
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "我的UC",
+      "name": "我的｜UC",
+      "type": 3,
+      "api": "csp_MyUc",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
+      },
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "影视配置",
+      "name": "影视｜配置",
+      "type": 3,
+      "api": "csp_Wexconfig",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+    },
+    {
+      "key": "天天弹幕",
+      "name": "天天｜弹幕",
+      "type": 3,
+      "api": "csp_TianTian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
+      }
+    },
+    {
+      "key": "热播弹幕",
+      "name": "热播｜弹幕",
+      "type": 3,
+      "api": "csp_TianTian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true,
+        "site": "aHR0cDovL3YucmJvdHYuY24="
+      }
+    },
+    {
+      "key": "文才弹幕",
+      "name": "文才｜弹幕",
+      "type": 3,
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "哔哩弹幕",
+      "name": "哔哩｜弹幕",
+      "type": 3,
+      "api": "csp_Bilimd",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
+      },
+      "timeout": 10
+    },
+    {
+      "key": "腾讯弹幕",
+      "name": "腾讯｜弹幕",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/TXDM.js"
+    },
+    {
+      "key": "优酷弹幕",
+      "name": "优酷｜弹幕",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/YKDM.js"
+    },
+    {
+      "key": "芒果弹幕",
+      "name": "芒果｜弹幕",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/MGDM.js"
+    },
+    {
+      "key": "爱奇艺弹幕",
+      "name": "爱奇艺｜弹幕",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/AQYDM.js"
+    },
+    {
+      "key": "玩偶弹幕",
+      "name": "玩偶｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "wogg": true,
+        "danmu": true
+      }
+    },
+    {
+      "key": "木偶弹幕",
+      "name": "木偶｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://www.muoupan.top",
+        "danmu": true
+      }
+    },
+    {
+      "key": "UC闪电弹幕",
+      "name": "UC闪电｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://feimaouc.cloud:666",
+        "danmu": true
+      }
+    },
+    {
+      "key": "欧歌弹幕",
+      "name": "欧哥｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://woog.nxog.eu.org",
+        "danmu": true
+      }
+    },
+    {
+      "key": "小米弹幕",
+      "name": "小米｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://ucmi.fun",
+        "danmu": true
+      }
+    },
+    {
+      "key": "多多弹幕",
+      "name": "多多｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://tv.yydsys.top",
+        "danmu": true
+      }
+    },
+    {
+      "key": "蜡笔弹幕",
+      "name": "蜡笔｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://feimaoai.site",
+        "danmu": true
+      }
+    },
+    {
+      "key": "至臻弹幕",
+      "name": "至臻｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://xiaomiai.site",
+        "danmu": true
+      }
+    },
+    {
+      "key": "土豆弹幕",
+      "name": "土豆｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://dcyun.cc",
+        "danmu": true
+      }
+    },
+    {
+      "key": "奥秘弹幕",
+      "name": "奥秘｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://vip.omii.top",
+        "danmu": true
+      }
+    },
+    {
+      "key": "星芽短剧",
+      "name": "星芽｜短剧",
+      "type": 3,
+      "api": "csp_AppXY",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "吉吉短剧",
+      "name": "吉吉｜短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./lib/JJDJ.json"
+    },
+    {
+      "key": "爱我短剧",
+      "name": "爱我｜短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/AWDJ.json"
+    },
+    {
+      "key": "短剧网",
+      "name": "短剧网｜短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./lib/DJWang.json"
+    },
+    {
+      "key": "短剧屋",
+      "name": "短剧屋｜短剧",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/DJW.json"
+    },
+    {
+      "key": "韩小圈",
+      "name": "韩小圈｜APP",
+      "type": 3,
+      "api": "csp_HanXiaoQuan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "影搜弹幕",
+      "name": "影搜｜弹幕",
+      "type": 3,
+      "api": "csp_Yingso",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "盘搜弹幕",
+      "name": "盘搜｜弹幕",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "易搜弹幕",
+      "name": "易搜｜弹幕",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true,
+        "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"
+      }
+    },
+    {
+      "key": "云盘弹幕",
+      "name": "云盘｜弹幕",
+      "type": 3,
+      "api": "csp_Yunpan4k",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "米搜弹幕",
+      "name": "米搜｜弹幕",
+      "type": 3,
+      "api": "csp_Qkpanso",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "https://www.misou.fun",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸搜弹幕",
+      "name": "夸搜｜弹幕",
+      "type": 3,
+      "api": "csp_Qkso",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "趣盘搜弹幕",
+      "name": "趣盘搜｜弹幕",
+      "type": 3,
+      "api": "csp_QuPanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸克短剧弹幕",
+      "name": "夸克短剧｜弹幕",
+      "type": 3,
+      "api": "csp_Qkdj",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "阿里合集",
+      "name": "阿里｜合集",
+      "type": 3,
+      "api": "csp_AliShare",
+      "searchable": 1,
+      "changeable": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "share": "https://gitee.com/PizazzXS/four-d/raw/master/js/alishare.txt"
+      },
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "短剧合集",
+      "name": "短剧｜合集",
+      "type": 3,
+      "api": "./lib/quark.min.js",
+      "ext": "./lib/DJHJ.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "Alllive",
+      "name": "聚合｜直播‍",
+      "type": 3,
+      "api": "csp_Wexalllive",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+    },
+    {
+      "key": "IKTV",
+      "name": "KTV｜音乐",
+      "type": 3,
+      "api": "csp_WexIktv",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+    },
+    {
+      "key": "push_agent",
+      "name": "手机｜推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "danmu": true
+      }
+    }
+  ],
+   "parses": [
+    {
+      "name": "孜然羊肉",
+      "type": 1,
+      "url": "https://jxjson.icu/neibu.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "皮皮虾",
+      "type": "1",
+      "url": "http://45.207.215.101:5423/index.php?url=",
+      "ext": {
+        "flag": [
+          "PPXLG",
+          "皮皮虾4K"
+        ]
+      }
+    }
+   ],
+   "rules": [
+
+   ],
+   "doh": [
+
+   ],
+   "lives": [
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+      "playerType": 2,
+      "timeout": 10
+    }
+  ],
+  "flags": [
+
+  ],
+  "ijk": [
+    
+  ],
+  "ads": [
+    "static-mozai.4gtv.tv"
+  ]
+}
