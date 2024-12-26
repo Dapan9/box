@@ -43,19 +43,6 @@
       "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
     },
     {
-      "key": "南瓜弹幕",
-      "name": "南瓜┃弹幕",
-      "type": 3,
-      "api": "csp_NanGua",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
-    {
       "key": "文才弹幕",
       "name": "文才｜弹幕",
       "type": 3,
@@ -534,7 +521,7 @@
       "key": "88js",
       "name": "⚽88┃看球┃直播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "./lib/drpy3.min.js",
       "ext": "./lib/88看球.js",
       "style": {
         "type": "list"
