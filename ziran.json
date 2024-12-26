@@ -1,10 +1,10 @@
 {
   "spider": "./ziran.txt;md5;a86f7115b9ed01b4e96c08c061107569",
-  "logo": "https://gitee.com/Dapan9/picture/raw/master/Image_01.png",
+  "logo": "/lib/Image_01.png",
   "sites": [
     {
       "key": "豆瓣",
-      "name": "孜然羊肉ne🎈：请不要相信广告内容哦！",
+      "name": "孜然羊肉ne🎈：请勿相信广告内容哦！",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
