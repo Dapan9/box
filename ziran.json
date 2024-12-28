@@ -585,7 +585,7 @@
   ],
    "parses": [
     {
-      "name": "孜然羊肉",
+      "name": "推荐",
       "type": 1,
       "url": "https://jxjson.icu/neibu.php?url=",
       "ext": {
@@ -607,6 +607,106 @@
           "seven",
           "bilibili",
           "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "优选",
+      "type": 1,
+      "url": "http://1.94.221.189:88/algorithm.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "臻享",
+      "type": "1",
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "至臻",
+      "type": 1,
+      "url": "http://yunhai.qijiyun.vip/home/api?type=ys&uid=177259&key=dijnouxKNOQSTUWXY5&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "HGvip",
+      "type": 1,
+      "url": "http://1.94.221.189:88/algorithm.php?url=",
+      "ext": {
+        "flag": [
+          "hgvip"
         ],
         "header": {
           "User-Agent": "okhttp/4.9.1"
