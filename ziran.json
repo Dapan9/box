@@ -645,14 +645,14 @@
        {
       "name": "切换电视1-fmm",
       "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
       "playerType": 2,
       "timeout": 10
     },
     {
       "name": "切换电视2-ipv4",
       "type": 0,
-      "url": "htttps://live.zbds.top/tv/iptv4.txt",
+      "url": "https://live.zbds.top/tv/iptv6.m3u",
       "playerType": 2,
       "timeout": 10
     },
