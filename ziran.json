@@ -643,23 +643,30 @@
    ],
    "lives": [
        {
-      "name": "电视1-fanmingming",
+      "name": "切换电视1-fmm",
       "type": 0,
       "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
       "playerType": 2,
       "timeout": 10
     },
     {
-      "name": "电视2-yuanzl77",
+      "name": "切换电视2-ipv4",
       "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.m3u",
+      "url": "htttps://live.zbds.top/tv/iptv4.txt",
       "playerType": 2,
       "timeout": 10
     },
     {
-      "name": "电视3-Live",
+      "name": "切换电视3-Live",
       "type": 0,
       "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+      "playerType": 2,
+      "timeout": 10
+    },
+    {
+      "name": "切换电视4-ipv6",
+      "type": 0,
+      "url": "./lib/ipv6.m3u",
       "playerType": 2,
       "timeout": 10
     }
