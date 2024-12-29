@@ -669,6 +669,14 @@
       "url": "./lib/ipv6.m3u",
       "playerType": 2,
       "timeout": 10
+    },
+    {
+      "name": "肥羊国内直播",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "url": "tv.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
     }
   ],
   "ads": [
