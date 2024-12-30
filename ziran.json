@@ -93,6 +93,13 @@
       }
     },
     {
+      "key": "流光影视",
+      "name": "流光｜影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./lib/LGYS.json"
+    },
+    {
       "key": "哔哩弹幕",
       "name": "哔哩｜弹幕",
       "type": 3,
