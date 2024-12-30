@@ -693,6 +693,38 @@
       "url": "tv.m3u",
       "timeout": 10,
       "ua": "okhttp/3.15"
+    },
+    {
+      "name": "肥羊虎牙一起看",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "url": "huyayqk.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
+    },
+    {
+      "name": "肥羊B站直播",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "url": "bililive.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
+    },
+    {
+      "name": "肥羊斗鱼一起看",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "url": "douyuyqk.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
+    },
+    {
+      "name": "肥羊YY轮播",
+      "type": 3,
+      "api": "csp_Feiyang",
+      "url": "yylunbo.m3u",
+      "timeout": 10,
+      "ua": "okhttp/3.15"
     }
   ],
   "ads": [
