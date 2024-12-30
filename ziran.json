@@ -508,7 +508,7 @@
       "indexs": 0,
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "share": "https://gitee.com/PizazzXS/four-d/raw/master/js/alishare.txt"
+        "share": "http://127.0.0.1:9978/file/TVBox/阿里合集.txt"
       },
       "style": {
         "type": "list"
