@@ -100,6 +100,16 @@
       "ext": "./lib/LGYS.json"
     },
     {
+      "key": "素白",
+      "name": "素白｜影视",
+      "type": 3,
+      "api": "csp_Subaibai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://subaibai.com"
+    },
+    {
       "key": "哔哩弹幕",
       "name": "哔哩｜弹幕",
       "type": 3,
@@ -307,6 +317,38 @@
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
         "site": "https://smdyo.top",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸克虎斑弹幕",
+      "name": "虎斑｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://wp.huban.xyz",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸克下饭弹幕",
+      "name": "下饭｜4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://txfyyds.top",
         "danmu": true
       }
     },
