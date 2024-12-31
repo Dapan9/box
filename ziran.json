@@ -353,6 +353,15 @@
       }
     },
     {
+      "key": "雷鲸",
+      "name": "雷鲸｜4K",
+      "type": 3,
+      "api": "csp_Wexleijing",
+      "searchable": 1,
+      "changeable": 1,
+      "jar": "./lib/ziran1.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
+    },
+    {
       "key": "土豆弹幕",
       "name": "土豆｜4K弹幕",
       "type": 3,
@@ -384,6 +393,15 @@
         "site": "https://vip.omii.top",
         "danmu": true
       }
+    },
+    {
+      "key": "韩小圈",
+      "name": "韩小圈｜APP",
+      "type": 3,
+      "api": "csp_HanXiaoQuan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "星芽短剧",
