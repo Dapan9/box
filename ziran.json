@@ -1,10 +1,10 @@
 {
-  "spider": "./ziran.txt;md5;40e9b9782b216bd5b5ae3bf4d763a7fb",
+  "spider": "./ziran.txt;md5;702713c095a210eb0ba26377534175b4",
   "logo": "https://gitee.com/Dapan9/picture/raw/master/Image_01.png",
   "sites": [
     {
       "key": "豆瓣",
-      "name": "孜然羊肉ne🎈：请勿相信广告内容哦！",
+      "name": "孜然羊肉ne🎈：请勿相信广告内容！",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -91,6 +91,29 @@
         "danmu": true,
         "site": "aHR0cDovL3YucmJvdHYuY24="
       }
+    },
+    {
+      "key": "小苹果弹幕",
+      "name": "小苹果｜弹幕",
+      "type": 3,
+      "api": "csp_Xpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "南瓜",
+      "name": "南瓜｜App",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "filterable": 1,
+      "ext": ""
     },
     {
       "key": "流光影视",
@@ -219,7 +242,7 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://feimaouc.cloud:666",
+        "site": "http://1.95.79.193",
         "danmu": true
       }
     },
@@ -402,6 +425,13 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "56动漫",
+      "name": "56｜动漫",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/56DM.js"
     },
     {
       "key": "星芽短剧",
