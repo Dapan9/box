@@ -1,0 +1,95 @@
+[
+  {
+    "name": "我的网盘",
+    "folders": [
+      {
+        "shareId": "",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "动漫合集",
+    "folders": [
+      {
+        "shareId": "bd7fc59b13b0",
+        "folder": "0"
+      },
+      {
+        "shareId": "510669a60f2e",
+        "folder": "0"
+      },
+      {
+        "shareId": "5fcf4cd555dc",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "电视剧合集",
+    "folders": [
+      {
+        "shareId": "de6fa90e80ff",
+        "folder": "0"
+      },
+      {
+        "shareId": "67b2468cedb3",
+        "folder": "0"
+      },
+      {
+        "shareId": "632de398b415",
+        "folder": "0"
+      },
+      {
+        "shareId": "e9342b6ba47b",
+        "folder": "0"
+      },
+      {
+        "shareId": "dbf69d2632c1",
+        "folder": "0"
+      },
+      {
+        "shareId": "3f717274c85b",
+        "folder": "0"
+      },
+      {
+        "shareId": "ceaa199f8f17",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "漫威电影合集",
+    "folders": [
+      {
+        "shareId": "bd7fc59b13b0",
+        "folder": "0"
+      },
+      {
+        "shareId": "f986b9147f67",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "短剧合集",
+    "folders": [
+      {
+        "shareId": "bd7fc59b13b0",
+        "folder": "0"
+      },
+      {
+        "shareId": "561cc35da866",
+        "folder": "0"
+      },
+      {
+        "shareId": "0a73c0deebeb",
+        "folder": "0"
+      },
+      {
+        "shareId": "6c9450d920dc",
+        "folder": "0"
+      }
+    ]
+  }
+]

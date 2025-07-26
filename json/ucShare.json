@@ -1,0 +1,64 @@
+[
+  {
+    "name": "我的网盘",
+    "folders": [
+      {
+        "shareId": "",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "动漫合集",
+    "folders": [
+      {
+        "shareId": "dfaf44fbd5054",
+        "folder": "0"
+      },
+      {
+        "shareId": "19bfea28b7fe4",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "豆瓣TOP250",
+    "folders": [
+      {
+        "shareId": "df02a26ce2274",
+        "folder": "0"
+      },
+      {
+        "shareId": "e97e74b5932f4",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "韩剧",
+    "folders": [
+      {
+        "shareId": "fb4bcff73b054",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "日剧",
+    "folders": [
+      {
+        "shareId": "7bdb9dc7ab4b4",
+        "folder": "0"
+      }
+    ]
+  },
+  {
+    "name": "音乐",
+    "folders": [
+      {
+        "shareId": "41d7dbb1275a4",
+        "folder": "0"
+      }
+    ]
+  }
+]
